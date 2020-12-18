@@ -1,0 +1,31 @@
+.container{
+    margin: 50px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.infected{
+    border-bottom: 10px solid rgba(0,0,255,0.5);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(30, 255, 0, 0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(255, 7, 7, 0.5);
+}
+
+@media (max-width:770px){
+    .container{
+      margin: 0 10%;
+    }
+    .text_hid{
+        display: none;
+    }
+    .img{
+      width: 100%;
+    }
+  }
+
